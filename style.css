@@ -1,0 +1,104 @@
+body {
+  margin:0;
+  padding: 0;
+}
+
+/* *******
+***ecran accueil***
+*/
+header {
+  height:100vh;
+  width:100%;
+  background-image: url(img/fond-header.jpeg);
+  background-size: cover;
+
+}
+.mon-titre {
+  position:relative;
+  width:90%;
+  top:45vh;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+header h1 {
+
+  font-size:35px;
+  font-family: 'Kodchasan', sans-serif;
+  color:white;
+  padding: 30px;
+  margin:0;
+
+}
+/* *******
+***Menu***
+*/
+nav ul {
+  list-style: none;
+  float:right;
+}
+nav li {
+    display: inline;
+    padding-right: 25px;
+}
+nav {
+  position:fixed;
+  top:0;
+  width:100%;
+  height:60px;
+  background-color: black;
+}
+#logo {
+  position: relative;
+  padding: 25px;
+  top:10px;
+}
+#menu {
+  position:relative;
+}
+section {
+  min-height:100vh;
+}
+
+#section2 {
+  background-color:grey;
+}
+h2 {
+  text-align: center;
+  padding-top:50px;
+}
+.boite-principale {
+width: 100%;
+}
+
+.boite1 {
+float: left;
+width: 50%;
+
+/* On fixe la largeur maxi de l'image pour que la div suivante passe à la ligne */
+min-width:500px;
+box-sizing: border-box;
+padding: 10px;
+}
+
+.boite1 img {
+width: 100%;
+}
+
+/* ***Footer pied de page
+***/
+footer {
+  position:absolute;
+  margin-bottom:0;
+  width:100%;
+  min-height:200px;
+  background-color:black;
+}
+
+#reseaux-sociaux {
+text-align: center;
+}
+#reseaux-sociaux img {
+padding: 20px;
+}
