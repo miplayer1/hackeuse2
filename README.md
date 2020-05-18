@@ -1,1 +1,1 @@
-# hackeuse2
+# hackeuse2 (projet apprenants)
